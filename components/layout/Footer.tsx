@@ -6,7 +6,19 @@ import { useTranslation } from "../providers/LanguageProvider";
 export default function Footer() {
   const { t } = useTranslation();
 
-  const FOOTER_SECTIONS = [
+  type FooterLink = {
+    labelKey?: string | null;
+    label?: string;
+    href: string;
+    target?: string;
+  };
+
+  type FooterSection = {
+    titleKey: string;
+    links: FooterLink[];
+  };
+
+  const FOOTER_SECTIONS: FooterSection[] = [
     {
       titleKey: "footer.sections.event",
       links: [
