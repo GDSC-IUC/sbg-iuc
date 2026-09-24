@@ -1,0 +1,117 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: ["class"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        canvas: "#090909",
+        "surface-1": "#141414",
+        "surface-2": "#1c1c1c",
+        hairline: "#262626",
+        "hairline-soft": "#1a1a1a",
+        ink: "#ffffff",
+        "ink-muted": "#999999",
+        "accent-blue": "#0099ff",
+        "gradient-magenta": "#d44df0",
+        "gradient-violet": "#6a4cf5",
+        "gradient-orange": "#ff7a3d",
+        "gradient-coral": "#ff5577",
+        "semantic-success": "#22c55e",
+        "aws-orange": "#FF9900",
+      },
+      fontFamily: {
+        display: ["AmazonEmberDisplay", "sans-serif"],
+        body: ["AmazonEmberDuospace", "sans-serif"],
+        mono: ["AmazonEmberMono", "monospace"],
+      },
+      fontSize: {
+        "display-xxl": ["110px", { lineHeight: "0.85", letterSpacing: "-5.5px" }],
+        "display-xl": ["85px", { lineHeight: "0.95", letterSpacing: "-4.25px" }],
+        "display-lg": ["62px", { lineHeight: "1.00", letterSpacing: "-3.1px" }],
+        "display-md": ["32px", { lineHeight: "1.13", letterSpacing: "-1.0px" }],
+        "body-lg": ["18px", { lineHeight: "1.30", letterSpacing: "-0.18px" }],
+        "body-base": ["15px", { lineHeight: "1.30", letterSpacing: "-0.15px" }],
+        "body-sm": ["14px", { lineHeight: "1.40", letterSpacing: "-0.14px" }],
+        caption: ["13px", { lineHeight: "1.20", letterSpacing: "-0.13px" }],
+        micro: ["12px", { lineHeight: "1.20", letterSpacing: "-0.12px" }],
+        btn: ["14px", { lineHeight: "1.0", letterSpacing: "-0.14px" }],
+      },
+      borderRadius: {
+        xs: "4px",
+        sm: "6px",
+        md: "10px",
+        lg: "15px",
+        xl: "20px",
+        xxl: "30px",
+        pill: "100px",
+        full: "9999px",
+      },
+      spacing: {
+        hair: "1px",
+        xxs: "4px",
+        xs: "8px",
+        sm: "12px",
+        md: "15px",
+        lg: "20px",
+        xl: "30px",
+        xxl: "40px",
+        section: "96px",
+      },
+      keyframes: {
+        "float-slow": {
+          "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-20px) rotate(5deg)" },
+        },
+        "float-medium": {
+          "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-14px) rotate(-3deg)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { opacity: "0.4" },
+          "50%": { opacity: "0.8" },
+        },
+        "marquee": {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        "slide-down": {
+          "0%": { opacity: "0", transform: "translateY(-10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in-up": {
+          "0%": { opacity: "0", transform: "translateY(30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "count-flip": {
+          "0%": { transform: "rotateX(0deg)" },
+          "100%": { transform: "rotateX(-90deg)" },
+        },
+        "shimmer": {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
+      },
+      animation: {
+        "float-slow": "float-slow 7s ease-in-out infinite",
+        "float-medium": "float-medium 5s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 3s ease-in-out infinite",
+        "marquee": "marquee 30s linear infinite",
+        "slide-down": "slide-down 0.3s ease-out",
+        "fade-in-up": "fade-in-up 0.6s ease-out forwards",
+        "shimmer": "shimmer 2s linear infinite",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-hero": "radial-gradient(ellipse 80% 60% at 50% -10%, rgba(106,76,245,0.25) 0%, transparent 60%), radial-gradient(ellipse 60% 40% at 80% 20%, rgba(212,77,240,0.15) 0%, transparent 50%)",
+        "gradient-vi": "linear-gradient(135deg, #6a4cf5 0%, #4f35d4 60%, #3b20cc 100%)",
+        "gradient-mg": "linear-gradient(135deg, #d44df0 0%, #b030d4 60%, #9020b8 100%)",
+        "gradient-or": "linear-gradient(135deg, #ff7a3d 0%, #f05a1a 60%, #d44010 100%)",
+      },
+    },
+  },
+  plugins: [],
+};

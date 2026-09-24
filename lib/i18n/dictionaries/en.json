@@ -1,0 +1,252 @@
+{
+  "hero": {
+    "eyebrow": "AWS Student Community Day · IUC 2026",
+    "titleP1": "LEARN. BUILD.",
+    "titleP2": "DEPLOY.",
+    "subtitle": "The IUC edition of the AWS Student Community Day.",
+    "descriptionP1": "Spearheaded by",
+    "descriptionAndy": "Andy Tchouta",
+    "descriptionP2": "and the",
+    "descriptionP3": " team, the Denver Campus in Douala becomes the cloud ground zero in Cameroon. A full day of hands-on labs, strategic networking, and career-changing connections.",
+    "ctaPrimary": "Book my seat",
+    "ctaSecondary": "Become a Speaker / Volunteer",
+    "countdownOpening": "Opening in",
+    "countdownDays": "Days",
+    "countdownHours": "Hours",
+    "countdownMinutes": "Minutes",
+    "countdownSeconds": "Seconds"
+  },
+  "nav": {
+    "about": "Home",
+    "programme": "Sessions",
+    "speakers": "Speakers",
+    "team": "Team",
+    "sponsors": "Sponsors",
+    "cta": "Register",
+    "ctaMobile": "Book my free seat"
+  },
+  "about": {
+    "title": "About",
+    "p1": "AWS Student Builder Groups are student communities that foster learning by doing. At AWS SCD, we prioritize hands-on labs, real-world demos, and collaborative projects to turn theory into actionable skills.",
+    "p2": "Organized by IUC students and backed by the AWS ecosystem, the AWS SCD aims to build a local talent pool ready to tackle Cloud and AI challenges.",
+    "stat1": "Sessions",
+    "stat2": "Speakers",
+    "stat3": "Free"
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "titleP1": "Democratizing",
+    "titleP2": "Cloud Mastery",
+    "titleP3": "in Douala.",
+    "cards": {
+      "labs": {
+        "tag": "LABS",
+        "title": "Hands-on Labs",
+        "desc": "Get your hands dirty. Generative AI with Amazon Bedrock, Serverless architectures, DevSecOps pipelines — guided labs on real AWS accounts, not just slides.",
+        "h1": "Amazon Bedrock & AI",
+        "h2": "Serverless & Lambda",
+        "h3": "DevSecOps & CI/CD"
+      },
+      "network": {
+        "tag": "NETWORKING",
+        "title": "Elite Networking",
+        "desc": "Meet professionals, tech companies, and recruiters from Cameroon and Central Africa. The connections you make here will shape your career path.",
+        "h1": "CTOs & Cloud Engineers",
+        "h2": "Startups & Scale-ups",
+        "h3": "Tech Recruiters Cameroon"
+      },
+      "career": {
+        "tag": "CAREER",
+        "title": "Cloud Career",
+        "desc": "A direct bridge between academia and industry. Pathway guidance for AWS Solutions Architect and Cloud Practitioner certifications, plus access to internships and job roles.",
+        "h1": "AWS Cloud Practitioner",
+        "h2": "Solutions Architect",
+        "h3": "Tech Internships & Jobs"
+      }
+    }
+  },
+  "atmosphere": {
+    "card1": {
+      "titleP1": "The Success",
+      "titleP2": "Continues.",
+      "desc": "After the remarkable Douala and Eyang editions, the momentum is on. AWS SBG IUC writes the next chapter of cloud history in Central Africa.",
+      "stat1Title": "Past editions",
+      "stat2Title": "Total attendees"
+    },
+    "card2": {
+      "title": "Official AWS Community",
+      "desc": "Recognized by Amazon Web Services"
+    },
+    "card3": {
+      "title": "100% Free for students",
+      "desc": "Labs, meals & certificates included"
+    },
+    "card4": {
+      "titleP1": "Powered",
+      "titleP2": "by IUC.",
+      "desc": "Denver Campus Student Builders prove that technical excellence knows no geographical boundaries. IUC is the engine.",
+      "location": "Campus IUC · Logbessou · Douala, Cameroon"
+    }
+  },
+  "programme": {
+    "eyebrow": "Schedule",
+    "titleP1": "An intense",
+    "titleP2": "day.",
+    "note": "* Indicative schedule. Times and speakers are subject to change. Register to receive updates."
+  },
+  "speakers": {
+    "eyebrow": "Talk / Volunteer Submission",
+    "titleP1": "Have something",
+    "titleP2": "to share?",
+    "desc": "Whether you are a cloud expert, passionate student, or industry professional, your voice matters. Submit a talk, workshop, or lightning talk proposal. We are also looking for enthusiastic volunteers to make this event unforgettable.",
+    "bullets": [
+      "🎤 Visibility before 300+ students",
+      "🤝 AWS Community Speaker Badge",
+      "🎁 VIP Pass & goodie bag"
+    ],
+    "btnTalk": "Submit a Talk",
+    "btnVolunteer": "Become a Volunteer",
+    "deadline1": "Deadline:",
+    "deadline2": "Speaker announcement:"
+  },
+  "team": {
+    "eyebrow": "Team",
+    "titleP1": "The builders",
+    "titleP2": "behind the event.",
+    "desc": "A team of passionate Campus students throwing their energy to make this event a continental benchmark.",
+    "footer": "* Full photos and bios coming soon."
+  },
+  "sponsors": {
+    "eyebrow": "Sponsoring",
+    "titleP1": "Invest in the",
+    "titleP2": "next generation.",
+    "desc": "Join the companies shaping the future of cloud computing in Central Africa.",
+    "speakBtn": "Let's discuss",
+    "sponsorBtn": "Become a partner",
+    "packs": [
+      {
+        "name": "Pack Starter",
+        "description": "Ideal for tech startups and SMEs wanting to get known by the next generation of cloud talents.",
+        "perks": [
+          "Logo on print & digital materials",
+          "Social media mention (× 2)",
+          "2 VIP guest passes",
+          "Mention in attendee emails"
+        ]
+      },
+      {
+        "name": "Pack Booster",
+        "description": "Optimal visibility. Premium logo placement, on-site activation, and extended digital presence.",
+        "perks": [
+          "Everything in Starter",
+          "LARGE logo on main stage",
+          "Social media mention × 5",
+          "5 VIP guest passes",
+          "5-min slot to present your company",
+          "Access to participant list (opt-in)"
+        ]
+      },
+      {
+        "name": "Pack Propulseur",
+        "description": "The strategic partnership. You are at the heart of the event: exclusive branding, recruitment panel.",
+        "perks": [
+          "Everything in Booster",
+          "Event CO-BRANDING",
+          "15-min keynote / presentation",
+          "Dedicated recruitment session",
+          "10 VIP passes + dinner with organizers",
+          "Exclusive post-event content (video, photos)",
+          "Mention in local tech press"
+        ]
+      },
+      {
+        "name": "Partner en Nature",
+        "description": "Products, services, or logistics? Contribute differently. Ideal for players wanting to get involved without direct financial commitment.",
+        "perks": [
+          "Venue or equipment rental",
+          "Food & beverages for attendees",
+          "Swag bags, goodies & merchandising",
+          "Software licenses or cloud credits",
+          "Speaker transport & accommodation",
+          "Visibility adapted to the donation's nature"
+        ]
+      }
+    ],
+    "footerText": "Custom packages available. Contact:"
+  },
+  "venue": {
+    "eyebrow": "Venue & Access",
+    "titleP1": "See you",
+    "titleP2": "in Denver.",
+    "addressTitle": "Institut Universitaire de la Côte (IUC)",
+    "addressDesc": ["Campus de Denver", "Douala, Littoral Region", "Cameroon 🇨🇲"],
+    "dateTitle": "Saturday, October 31, 2026",
+    "dateDesc": ["08h00 — 17h30 (WAT, UTC+1)", "Check-in starting at 07h30"],
+    "accessTitle": "How to get there?",
+    "access1Title": "Public Transport",
+    "access1Desc": "Taxi & motorbike taxi to Denver from downtown (30-45 min)",
+    "access2Title": "By car",
+    "access2Desc": "Parking available on campus.",
+    "access3Title": "GPS",
+    "access3Desc": "Right next to the Douala 5th City Hall, Bonamoussadi"
+  },
+  "faq": {
+    "eyebrow": "Registration",
+    "titleP1": "Secure your",
+    "titleP2": "seat.",
+    "desc": "Seats are limited. Register now to receive all practical information, full agenda and lab access.",
+    "btn": "Book my free seat",
+    "subbtn": "Free · Registration required",
+    "proof": "+250 people already registered",
+    "faqEyebrow": "FAQ",
+    "faqTitleP1": "Frequently asked",
+    "faqTitleP2": "questions.",
+    "items": [
+      {
+        "q": "Is it free?",
+        "a": "Yes, completely free for all students. Registration is mandatory and seats are limited. The pass covers all labs, talks, lunch, and a welcome kit."
+      },
+      {
+        "q": "Do I need to be an AWS expert to attend?",
+        "a": "Not at all. The event welcomes all skill levels, from total beginners to senior developers. Labs are designed with a progressive learning curve. You only need curiosity and motivation."
+      },
+      {
+        "q": "Will there be certifications or badges?",
+        "a": "Yes. Official AWS SBG IUC participation certificates will be awarded. Credly digital badging for completed labs is also planned. Orientation sessions on AWS certifications will be run on-site."
+      },
+      {
+        "q": "Should I bring my own laptop?",
+        "a": "A laptop is recommended for hands-on labs. If you don't have one, a limited number of shared workstations will be available. Make sure to bring a charged battery!"
+      },
+      {
+        "q": "Is the event restricted to IUC students?",
+        "a": "No! Although organized by AWS SBG IUC and hosted at the Denver Campus, it is open to all students in Douala and Cameroon, regardless of their university. Professionals looking to network are also welcome."
+      },
+      {
+        "q": "How to become a sponsor or partner?",
+        "a": "Check our Sponsoring section or contact the team directly at awscloudclubiuc@gmail.com. We offer packages fitting all budgets, including in-kind partnerships."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Cameroon's leading student cloud conference. Campus IUC Denver · Douala.",
+    "copyright": "© 2026 AWS Student Builder Group IUC. Built with ❤ by the Student Builders.",
+    "disclaimer": "This site is not affiliated with Amazon Web Services, Inc.",
+    "sections": {
+      "event": "Event",
+      "participate": "Participate",
+      "community": "Community",
+      "contact": "Contact"
+    },
+    "links": {
+      "programme": "Schedule",
+      "speakers": "Speakers",
+      "team": "Team",
+      "venue": "Venue & Access",
+      "register": "Registration (free)",
+      "submitTalk": "Submit a Talk",
+      "volunteer": "Become a Volunteer",
+      "sponsoring": "Sponsoring Packs"
+    }
+  }
+}
