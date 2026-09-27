@@ -65,8 +65,8 @@ export default async function RootLayout({
   const dictEn = await getDictionary("en");
 
   return (
-    <html lang={locale} className="scroll-smooth">
-      <body className="bg-canvas text-ink antialiased">
+    <html lang={locale} className="scroll-smooth overflow-x-hidden">
+      <body className="bg-canvas text-ink antialiased overflow-x-hidden">
         <LanguageProvider locale={locale} dictionaries={{ fr: dictFr, en: dictEn }}>
           <CursorGlow />
           {children}
