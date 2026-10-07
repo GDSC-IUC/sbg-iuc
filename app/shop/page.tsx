@@ -39,7 +39,7 @@ export default function ShopPage() {
     {
       id: "hoodie",
       image1: "/items-shop/hoodie.jpeg",
-      price: "5000 XAF",
+      price: "15000 XAF",
     },
     {
       id: "mug",
