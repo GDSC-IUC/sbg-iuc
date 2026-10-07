@@ -23,11 +23,12 @@ export default function TopNav() {
   }, [menuOpen]);
 
   const navLinks = [
-    { label: t("nav.about"), href: "#hero" },
-    { label: t("nav.programme"), href: "#programme" },
-    { label: t("nav.speakers"), href: "#speakers" },
-    { label: t("nav.team"), href: "#team" },
-    { label: t("nav.sponsors"), href: "#sponsoring" },
+    { label: t("nav.about"), href: "/#hero" },
+    { label: t("nav.programme"), href: "/#programme" },
+    { label: t("nav.speakers"), href: "/#speakers" },
+    { label: t("nav.team"), href: "/#team" },
+    { label: t("nav.sponsors"), href: "/#sponsoring" },
+    { label: t("nav.shop"), href: "/shop" },
   ];
 
   return (
@@ -42,7 +43,7 @@ export default function TopNav() {
       >
         <div className="container-main h-full flex items-center justify-between gap-6">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2.5 shrink-0">
+          <a href="/#hero" className="flex items-center gap-2.5 shrink-0">
             <div className="relative w-8 h-8">
               <Image
                 src="/logo/AWS_SBG_RGB_Program Icon_Amber.png"
@@ -86,7 +87,7 @@ export default function TopNav() {
           <div className="flex items-center gap-3">
             <LanguageToggle />
             <a
-              href="#register"
+              href="/#register"
               className="btn-primary hidden sm:inline-flex"
               style={{ padding: "8px 16px", fontSize: "13px" }}
             >
@@ -134,7 +135,7 @@ export default function TopNav() {
           ))}
         </div>
         <div className="mt-8">
-            <a href="#register" className="btn-primary w-full text-center" onClick={() => setMenuOpen(false)}>
+            <a href="/#register" className="btn-primary w-full text-center" onClick={() => setMenuOpen(false)}>
               {t("nav.ctaMobile")}
             </a>
         </div>

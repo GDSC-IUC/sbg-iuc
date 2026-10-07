@@ -22,6 +22,7 @@
     "speakers": "Speakers",
     "team": "Équipe",
     "sponsors": "Sponsors",
+    "shop": "Boutique",
     "cta": "S'inscrire",
     "ctaMobile": "Réserver ma place gratuite"
   },
@@ -227,6 +228,21 @@
         "a": "Consultez notre section Sponsoring ou contactez directement l'équipe à awscloudclubiuc@gmail.com. Nous proposons des packs adaptés à tous les budgets, y compris des partenariats en nature."
       }
     ]
+  },
+  "shop": {
+    "eyebrow": "GOODIES SHOP",
+    "title": "Boutique SCD IUC",
+    "description": "Procurez-vous les goodies officiels de l'AWS Student Community Day IUC.",
+    "inStock": "En stock",
+    "items": {
+      "toteBag": { "name": "Tote bag (Tote Bag)", "desc": "Un sac cabas en toile écologique avec design exclusif (This bag runs on AWS)." },
+      "pen": { "name": "Stylet à bille personnalisé", "desc": "Stylo à bille rétractable et multifonctionnel." },
+      "cap": { "name": "Casquette officielle", "desc": "Casquette avec logo original." },
+      "wristband": { "name": "Bracelet en silicone personnalisé", "desc": "Proposé en plusieurs coloris." },
+      "tshirt": { "name": "T-shirt (Custom T-shirt)", "desc": "T-shirt à manches courtes, plusieurs variantes (I build therefore I am)." },
+      "hoodie": { "name": "Sweat à capuche (Hoodie)", "desc": "Sweat chaud et confortable avec logo." },
+      "mug": { "name": "Mug classique", "desc": "Mug en céramique pour accompagner vos sessions de code." }
+    }
   },
   "footer": {
     "tagline": "La conférence cloud étudiante de référence au Cameroun. Campus IUC Denver · Douala.",
