@@ -61,9 +61,17 @@ export default function ShopPage() {
             <h1 className="text-display-sm md:text-display-md font-bold mb-4">
               {t("shop.title")}
             </h1>
-            <p className="text-body-lg text-ink-muted">
+            <p className="text-body-lg text-ink-muted mb-8">
               {t("shop.description")}
             </p>
+            <a 
+              href="https://forms.gle/xC89b1mHKoqLPjQZ7" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn-primary inline-flex"
+            >
+              {t("shop.preOrderBtn")}
+            </a>
           </div>
 
           {/* Grip Products */}

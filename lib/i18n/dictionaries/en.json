@@ -233,6 +233,7 @@
     "eyebrow": "GOODIES SHOP",
     "title": "SCD IUC Shop",
     "description": "Get the official AWS Student Community Day IUC goodies.",
+    "preOrderBtn": "Pre-order now",
     "inStock": "In stock",
     "items": {
       "toteBag": { "name": "Tote bag (Tote Bag)", "desc": "Eco-friendly canvas tote bag with exclusive design (This bag runs on AWS)." },
