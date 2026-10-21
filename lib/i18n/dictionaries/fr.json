@@ -92,8 +92,9 @@
   "programme": {
     "eyebrow": "Programme",
     "titleP1": "Une journée",
-    "titleP2": "intense.",
-    "note": "* Programme indicatif. Les horaires et speakers sont sujets à modification. Inscrivez-vous pour recevoir les mises à jour."
+    "titleP2": "intense & rythmée.",
+    "allFilter": "Tout",
+    "note": "* Programme indicatif (heure locale du Cameroun, WAT UTC+1). Les horaires et l'ordre des passages peuvent être ajustés."
   },
   "speakers": {
     "eyebrow": "Soumission de Talk / Bénévolat",

@@ -91,9 +91,10 @@
   },
   "programme": {
     "eyebrow": "Schedule",
-    "titleP1": "An intense",
-    "titleP2": "day.",
-    "note": "* Indicative schedule. Times and speakers are subject to change. Register to receive updates."
+    "titleP1": "An intense &",
+    "titleP2": "action-packed day.",
+    "allFilter": "All",
+    "note": "* Indicative schedule (Cameroon local time, WAT UTC+1). Session times and order are subject to adjustments."
   },
   "speakers": {
     "eyebrow": "Talk / Volunteer Submission",

@@ -6,6 +6,7 @@ import { LanguageProvider } from "@/components/providers/LanguageProvider";
 import { getDictionary } from "@/lib/i18n";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sbg-iuc.vercel.app"),
   title: "AWS Student Community Day IUC 2026 — Learn. Build. Deploy. | Douala",
   description:
     "Rejoins la plus grande conférence cloud étudiante du Cameroun. AWS Student Community Day IUC 2026 — Mains sur les labs Amazon Bedrock, Serverless, DevSecOps. Campus IUC Denver, Douala. 31 Octobre 2026. Gratuit pour les étudiants.",
@@ -29,8 +30,16 @@ export const metadata: Metadata = {
     title: "AWS Student Community Day IUC 2026 — Learn. Build. Deploy.",
     description:
       "La conférence cloud étudiante de référence au Cameroun. Hands-on Labs, Speakers experts, Networking. 31 Octobre 2026 — Campus IUC Denver, Douala.",
-    url: "https://scd.awssbgiuc.com",
+    url: "https://sbg-iuc.vercel.app",
     siteName: "AWS SCD IUC 2026",
+    images: [
+      {
+        url: "/team/cover-scd.png",
+        width: 1200,
+        height: 630,
+        alt: "AWS Student Community Day IUC 2026",
+      },
+    ],
     locale: "fr_CM",
     type: "website",
   },
@@ -38,6 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AWS Student Community Day IUC 2026",
     description: "La conférence cloud étudiante de référence au Cameroun. 31 Octobre 2026.",
+    images: ["/team/cover-scd.png"],
   },
   robots: {
     index: true,

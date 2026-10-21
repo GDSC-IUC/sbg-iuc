@@ -33,7 +33,7 @@ export default function AboutSection() {
                 <div className="text-xs uppercase tracking-wider font-bold" style={{ color: "#666" }}>{t("about.stat1")}</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-gradient-aws mb-1" style={{ color: "#FF9900" }}>6+</div>
+                <div className="text-3xl font-bold text-gradient-aws mb-1" style={{ color: "#FF9900" }}>10+</div>
                 <div className="text-xs uppercase tracking-wider font-bold" style={{ color: "#666" }}>{t("about.stat2")}</div>
               </div>
               <div>
