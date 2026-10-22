@@ -86,8 +86,8 @@ const SESSIONS: SessionItem[] = [
       en: "OPENING",
     },
     title: {
-      fr: "Mot d'ouverture du SBG Leader : Vision & Objectifs de l'AWS SCD IUC",
-      en: "Opening Address by SBG Leader: Vision & Goals of AWS SCD IUC",
+      fr: "Mot d'ouverture du SBG Leader",
+      en: "Opening Address by SBG Leader",
     },
     speaker: {
       fr: "Andy Tchouta — AWS SBG Leader IUC",
