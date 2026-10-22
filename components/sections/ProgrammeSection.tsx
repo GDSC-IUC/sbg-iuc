@@ -269,7 +269,7 @@ const SESSIONS: SessionItem[] = [
   // 5. Sponsor Time & Midday Break
   {
     time: "12:40",
-    duration: "20 min",
+    duration: "10 min",
     category: "SPONSOR",
     typeColor: "#22c55e",
     icon: "🛡️",
@@ -291,7 +291,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "13:00",
+    time: "12:50",
     duration: "30 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -316,7 +316,7 @@ const SESSIONS: SessionItem[] = [
 
   // 6. Block 3 — DevOps, Security & Serverless
   {
-    time: "13:30",
+    time: "13:20",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -339,7 +339,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "14:00",
+    time: "13:50",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -362,7 +362,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "14:30",
+    time: "14:20",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -387,7 +387,7 @@ const SESSIONS: SessionItem[] = [
 
   // 7. Closing Festivities, Kahoot Quiz, Awards, Karaoke & Refreshments
   {
-    time: "15:00",
+    time: "14:50",
     duration: "20 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -410,7 +410,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "15:20",
+    time: "15:10",
     duration: "20 min",
     category: "KEYNOTE",
     typeColor: "#FF9900",
@@ -433,7 +433,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "15:40",
+    time: "15:30",
     duration: "35 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -456,7 +456,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "16:15",
+    time: "16:05",
     duration: "45 min",
     category: "GENERAL",
     typeColor: "#999999",
