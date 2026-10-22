@@ -34,9 +34,10 @@ export const metadata: Metadata = {
     siteName: "AWS SCD IUC 2026",
     images: [
       {
-        url: "/team/cover-scd.png",
+        url: "/team/cover-scd-og.jpg",
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "AWS Student Community Day IUC 2026",
       },
     ],
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AWS Student Community Day IUC 2026",
     description: "La conférence cloud étudiante de référence au Cameroun. 31 Octobre 2026.",
-    images: ["/team/cover-scd.png"],
+    images: ["/team/cover-scd-og.jpg"],
   },
   robots: {
     index: true,

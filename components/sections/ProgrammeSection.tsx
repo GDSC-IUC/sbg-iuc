@@ -195,34 +195,9 @@ const SESSIONS: SessionItem[] = [
     },
   },
 
-  // 4. Game Break #1
+  // 4. Block 2 — Data, AI & Amazon Bedrock
   {
     time: "11:10",
-    duration: "20 min",
-    category: "GAMES",
-    typeColor: "#d44df0",
-    icon: "🎮",
-    type: {
-      fr: "JEU & QUIZ",
-      en: "GAME & QUIZ",
-    },
-    title: {
-      fr: "Session Interactive : Q&A Cloud Quiz",
-      en: "Interactive Session: Q&A Cloud Quiz",
-    },
-    speaker: {
-      fr: "Équipe Animation SBG IUC",
-      en: "SBG IUC Animation Team",
-    },
-    tags: {
-      fr: ["Cloud Quiz", "Interactive", "Goodies"],
-      en: ["Cloud Quiz", "Interactive", "Swag"],
-    },
-  },
-
-  // 5. Block 2 — Data, AI & Amazon Bedrock
-  {
-    time: "11:30",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -245,7 +220,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "12:00",
+    time: "11:40",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -268,7 +243,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "12:30",
+    time: "12:10",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -291,9 +266,9 @@ const SESSIONS: SessionItem[] = [
     },
   },
 
-  // 6. Sponsor Time & Game Break #2
+  // 5. Sponsor Time & Midday Break
   {
-    time: "13:00",
+    time: "12:40",
     duration: "20 min",
     category: "SPONSOR",
     typeColor: "#22c55e",
@@ -316,32 +291,32 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "13:20",
-    duration: "25 min",
+    time: "13:00",
+    duration: "30 min",
     category: "GAMES",
     typeColor: "#d44df0",
     icon: "🎯",
     type: {
-      fr: "JEUX & DÉFIS",
-      en: "GAMES & CHALLENGES",
+      fr: "JEUX & NETWORKING",
+      en: "GAMES & NETWORKING",
     },
     title: {
-      fr: "Détente & Défis : Bottle Flip, Spin & Maze Puzzle",
-      en: "Break & Challenges: Bottle Flip, Spin & Maze Puzzle",
+      fr: "Pause Détente, Mini-Networking & Défis : Bottle Flip, Spin & Maze Puzzle",
+      en: "Break, Mini-Networking & Challenges: Bottle Flip, Spin & Maze Puzzle",
     },
     speaker: {
       fr: "Équipe Animation SBG IUC",
       en: "SBG IUC Animation Team",
     },
     tags: {
-      fr: ["Bottle Flip", "Maze Puzzle", "Défis & Fun"],
-      en: ["Bottle Flip", "Maze Puzzle", "Fun Challenges"],
+      fr: ["Bottle Flip", "Maze Puzzle", "Networking"],
+      en: ["Bottle Flip", "Maze Puzzle", "Networking"],
     },
   },
 
-  // 7. Block 3 — DevOps, Security & Serverless
+  // 6. Block 3 — DevOps, Security & Serverless
   {
-    time: "13:45",
+    time: "13:30",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -364,7 +339,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "14:15",
+    time: "14:00",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -387,7 +362,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "14:45",
+    time: "14:30",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -410,10 +385,33 @@ const SESSIONS: SessionItem[] = [
     },
   },
 
-  // 8. Closing Festivities, Awards, Karaoke & Refreshments
+  // 7. Closing Festivities, Kahoot Quiz, Awards, Karaoke & Refreshments
   {
-    time: "15:15",
-    duration: "25 min",
+    time: "15:00",
+    duration: "20 min",
+    category: "GAMES",
+    typeColor: "#d44df0",
+    icon: "🎮",
+    type: {
+      fr: "KAHOOT QUIZ",
+      en: "KAHOOT QUIZ",
+    },
+    title: {
+      fr: "Quiz Récapitulatif des Sessions en Direct — Activité Kahoot",
+      en: "Live Session Recap Quiz — Kahoot Activity",
+    },
+    speaker: {
+      fr: "Équipe Animation SBG IUC (Questions des Speakers)",
+      en: "SBG IUC Animation Team (Speakers' Questions)",
+    },
+    tags: {
+      fr: ["Kahoot", "Live Quiz", "Top 3"],
+      en: ["Kahoot", "Live Quiz", "Top 3"],
+    },
+  },
+  {
+    time: "15:20",
+    duration: "20 min",
     category: "KEYNOTE",
     typeColor: "#FF9900",
     icon: "🏆",
@@ -422,8 +420,8 @@ const SESSIONS: SessionItem[] = [
       en: "AWARDS & CHALLENGE",
     },
     title: {
-      fr: "Récompenses des Jeux & Prix du Challenge #IWillBeThere (Post avec le plus de réactions)",
-      en: "Game Rewards & #IWillBeThere Online Challenge Prize (Most Reacted Post)",
+      fr: "Récompenses des Jeux (Top 3 Kahoot) & Prix du Challenge #IWillBeThere (Post avec le plus de réactions)",
+      en: "Game Rewards (Kahoot Top 3) & #IWillBeThere Online Challenge Prize (Most Reacted Post)",
     },
     speaker: {
       fr: "Comité d'Organisation SBG IUC",
