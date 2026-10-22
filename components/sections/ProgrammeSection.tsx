@@ -420,8 +420,8 @@ const SESSIONS: SessionItem[] = [
       en: "AWARDS & CHALLENGE",
     },
     title: {
-      fr: "Récompenses des Jeux (Top 3 Kahoot) & Prix du Challenge #IWillBeThere (Post avec le plus de réactions)",
-      en: "Game Rewards (Kahoot Top 3) & #IWillBeThere Online Challenge Prize (Most Reacted Post)",
+      fr: "Récompenses des Jeux & Prix du Challenge #IWillBeThere",
+      en: "Game Rewards & #IWillBeThere Online Challenge Prize",
     },
     speaker: {
       fr: "Comité d'Organisation SBG IUC",
