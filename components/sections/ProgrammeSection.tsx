@@ -124,9 +124,32 @@ const SESSIONS: SessionItem[] = [
     },
   },
 
-  // 3. Block 1 — Community & Cloud Foundations
+  // 3. Block 1 — AI, Community & Cloud Foundations
   {
     time: "09:50",
+    duration: "30 min",
+    category: "TALK",
+    typeColor: "#6a4cf5",
+    icon: "🤖",
+    type: {
+      fr: "TALK",
+      en: "TALK",
+    },
+    title: {
+      fr: "Inside AI Agents with Strands and Amazon Bedrock",
+      en: "Inside AI Agents with Strands and Amazon Bedrock",
+    },
+    speaker: {
+      fr: "Jerry Davis Ndjana — Senior Graduate Intern",
+      en: "Jerry Davis Ndjana — Senior Graduate Intern",
+    },
+    tags: {
+      fr: ["Amazon Bedrock", "AI Agents", "Strands"],
+      en: ["Amazon Bedrock", "AI Agents", "Strands"],
+    },
+  },
+  {
+    time: "10:20",
     duration: "25 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -149,7 +172,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "10:15",
+    time: "10:45",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -172,7 +195,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "10:45",
+    time: "11:15",
     duration: "25 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -195,9 +218,9 @@ const SESSIONS: SessionItem[] = [
     },
   },
 
-  // 4. Block 2 — Data, AI & Amazon Bedrock
+  // 4. Block 2 — Data Science & Bedrock AI Communities
   {
-    time: "11:10",
+    time: "11:40",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -217,29 +240,6 @@ const SESSIONS: SessionItem[] = [
     tags: {
       fr: ["Data Science", "Analytics", "Big Data"],
       en: ["Data Science", "Analytics", "Big Data"],
-    },
-  },
-  {
-    time: "11:40",
-    duration: "30 min",
-    category: "TALK",
-    typeColor: "#6a4cf5",
-    icon: "🤖",
-    type: {
-      fr: "TALK",
-      en: "TALK",
-    },
-    title: {
-      fr: "Inside AI Agents with Strands and Amazon Bedrock",
-      en: "Inside AI Agents with Strands and Amazon Bedrock",
-    },
-    speaker: {
-      fr: "Jerry Davis Ndjana — Senior Graduate Intern",
-      en: "Jerry Davis Ndjana — Senior Graduate Intern",
-    },
-    tags: {
-      fr: ["Amazon Bedrock", "AI Agents", "Strands"],
-      en: ["Amazon Bedrock", "AI Agents", "Strands"],
     },
   },
   {
@@ -292,6 +292,29 @@ const SESSIONS: SessionItem[] = [
   },
   {
     time: "12:50",
+    duration: "10 min",
+    category: "SPONSOR",
+    typeColor: "#22c55e",
+    icon: "✨",
+    type: {
+      fr: "SPONSOR TIME",
+      en: "SPONSOR TIME",
+    },
+    title: {
+      fr: "IDEM AI : Construire et Déployer des Solutions & Startups avec l'IA en Afrique",
+      en: "IDEM AI: Building & Deploying AI-Powered Solutions and Startups in Africa",
+    },
+    speaker: {
+      fr: "IDEM AI (idem.africa) — Plateforme IA Open-Source & Partenaire",
+      en: "IDEM AI (idem.africa) — Open-Source AI Platform & Partner",
+    },
+    tags: {
+      fr: ["IDEM AI", "IA & Startups", "Partenaire"],
+      en: ["IDEM AI", "AI & Startups", "Partner"],
+    },
+  },
+  {
+    time: "13:00",
     duration: "30 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -316,7 +339,7 @@ const SESSIONS: SessionItem[] = [
 
   // 6. Block 3 — DevOps, Security & Serverless
   {
-    time: "13:20",
+    time: "13:30",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -339,7 +362,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "13:50",
+    time: "14:00",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -362,7 +385,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "14:20",
+    time: "14:30",
     duration: "30 min",
     category: "TALK",
     typeColor: "#6a4cf5",
@@ -387,7 +410,7 @@ const SESSIONS: SessionItem[] = [
 
   // 7. Closing Festivities, Kahoot Quiz, Awards, Karaoke & Refreshments
   {
-    time: "14:50",
+    time: "15:00",
     duration: "20 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -410,7 +433,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "15:10",
+    time: "15:20",
     duration: "20 min",
     category: "KEYNOTE",
     typeColor: "#FF9900",
@@ -433,7 +456,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "15:30",
+    time: "15:40",
     duration: "35 min",
     category: "GAMES",
     typeColor: "#d44df0",
@@ -456,7 +479,7 @@ const SESSIONS: SessionItem[] = [
     },
   },
   {
-    time: "16:05",
+    time: "16:15",
     duration: "45 min",
     category: "GENERAL",
     typeColor: "#999999",
